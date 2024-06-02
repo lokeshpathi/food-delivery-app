@@ -26,9 +26,9 @@ function Navbar() {
 
         <div className='flex gap-[40px] items-center'>
             <img src={assets.search_icon}/>
-            <div>
+            <div className='relative'>
                 <img src={assets.basket_icon}/>
-                <div></div>
+                <div className='absolute top-[-10px] right-[-4px] w-[9px] h-[9px] bg-ecommerce rounded-full'></div>
             </div>
             <button className='
             bg-transparent text-2xl border border-solid  text-ecommerce 
